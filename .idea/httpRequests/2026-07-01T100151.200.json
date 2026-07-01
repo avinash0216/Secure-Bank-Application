@@ -1,0 +1,8 @@
+{
+  "subject": "C001",
+  "preferredUsername": "alice",
+  "fullName": "Alice Nguyen",
+  "roles": [
+    "account_holder"
+  ]
+}

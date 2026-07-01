@@ -5,34 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a762dde-6acf-4472-831e-9f0de26df4a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/bank-requests.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/BankbffApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/client/BankingApiClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/config/WebClientConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/controller/AccountController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/dto/AccountDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/dto/TransferRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/dto/TransferResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/dto/UserInfoDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/test/java/com/example/bankbff/BankbffApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2026-07-01T100151.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authserver/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authserver/authserver-tests.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authserver/src/main/java/com/example/authserver/AuthServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authserver/src/main/java/com/example/authserver/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authserver/src/main/java/com/example/authserver/user/BankUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-bff/bank-requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/bank-bff/bank-requests.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Java-Training-Projects" />
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/student.VLAB/Capstone/Secure-Bank-Application" value="3Ft1oQUt6Fl9nvZ2feIB0cU0VwV" />
+    </persistenceIdMap>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "avinash0216"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/avinash0216/Secure-Bank-Application.git",
+    "accountId": "87400e7f-0e96-4efc-a8ab-6c7c24335df3"
+  }
+}]]></component>
   <component name="HttpClientOnboardingState">{
   &quot;isOnboardingCommentShown&quot;: true
 }</component>
@@ -55,31 +69,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AuthServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.bff.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AuthserverApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.BankbffApplication.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/avi_i/source/repos/avinash0216/MultiProjectTest/auth/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AuthServer.executor": "Run",
+    "Application.bff.executor": "Run",
+    "HTTP Request.bank-requests | #3.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AuthserverApplication.executor": "Debug",
+    "Spring Boot.BankapiApplication.executor": "Debug",
+    "Spring Boot.BankbffApplication.executor": "Debug",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "feature/authserver",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/student.VLAB/Capstone/Secure-Bank-Application",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/avi_i/source/repos/avinash0216/MultiProjectTest/auth/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\avi_i\source\repos\avinash0216\MultiProjectTest" />
@@ -97,11 +127,19 @@
     </option>
     <option name="configurationStatuses">
       <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="bank-requests | #3" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
               <entry key="AuthserverApplication" value="STOPPED" />
-              <entry key="BankbffApplication" value="FAILED" />
+              <entry key="BankapiApplication" value="STOPPED" />
+              <entry key="BankbffApplication" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -109,15 +147,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BankbffApplication">
-    <configuration name="auth-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/auth-server/auth-requests.http" executionIdentifier="#2" index="2" runType="Run single request">
+    <configuration name="bank-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/bank-bff/bank-requests.http" executionIdentifier="#3" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="bank-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/bank-bff/bank-requests.http" executionIdentifier="#1" runType="Run single request">
-      <method v="2" />
+    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="authserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.authserver.AuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AuthserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="auth-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.auth.server.AuthserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="bank-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bankapi.BankapiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,23 +181,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.auth-requests | #2" />
-      <item itemvalue="HTTP Request.bank-requests | #1" />
+      <item itemvalue="HTTP Request.bank-requests | #3" />
+      <item itemvalue="Spring Boot.AuthServerApplication" />
+      <item itemvalue="Spring Boot.BankapiApplication" />
       <item itemvalue="Spring Boot.AuthserverApplication" />
       <item itemvalue="Spring Boot.BankbffApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.bank-requests | #1" />
-        <item itemvalue="HTTP Request.auth-requests | #2" />
+        <item itemvalue="HTTP Request.bank-requests | #3" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
       </set>
     </attachedChunks>
   </component>
@@ -160,6 +210,7 @@
       <updated>1782879725836</updated>
       <workItem from="1782879726912" duration="2160000" />
       <workItem from="1782882612311" duration="2594000" />
+      <workItem from="1782917405538" duration="2400000" />
     </task>
     <servers />
   </component>
