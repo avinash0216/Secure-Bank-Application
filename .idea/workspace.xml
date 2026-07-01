@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a762dde-6acf-4472-831e-9f0de26df4a3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/bank-requests.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/BankbffApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/client/BankingApiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/config/WebClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/controller/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/dto/AccountDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/dto/TransferRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/dto/TransferResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/java/com/example/bankbff/dto/UserInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Training-Projects/bankbff/src/test/java/com/example/bankbff/BankbffApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Java-Training-Projects" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3Ft1oQUt6Fl9nvZ2feIB0cU0VwV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AuthServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bff.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.BankbffApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/avi_i/source/repos/avinash0216/MultiProjectTest/auth/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\avi_i\source\repos\avinash0216\MultiProjectTest" />
+      <recent name="C:\Users\avi_i\source\repos\avinash0216\MultiProjectTest\bff" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="AuthserverApplication" value="STOPPED" />
+              <entry key="BankbffApplication" value="FAILED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BankbffApplication">
+    <configuration name="auth-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/auth-server/auth-requests.http" executionIdentifier="#2" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="bank-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/bank-bff/bank-requests.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.auth.server.AuthserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankbffApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="bank-bff" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bank.bff.BankbffApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.auth-requests | #2" />
+      <item itemvalue="HTTP Request.bank-requests | #1" />
+      <item itemvalue="Spring Boot.AuthserverApplication" />
+      <item itemvalue="Spring Boot.BankbffApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.bank-requests | #1" />
+        <item itemvalue="HTTP Request.auth-requests | #2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a762dde-6acf-4472-831e-9f0de26df4a3" name="Changes" comment="" />
+      <created>1782879725836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782879725836</updated>
+      <workItem from="1782879726912" duration="2160000" />
+      <workItem from="1782882612311" duration="2594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../BigBankApp/auth/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
