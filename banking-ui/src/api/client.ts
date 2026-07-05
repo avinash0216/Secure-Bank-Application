@@ -1,17 +1,32 @@
 /**
  * API client for the banking backend.
  *
- * All HTTP communication with the backend goes through this file. During
- * Lab A the requests are intercepted by Mock Service Worker (MSW) and
- * answered with canned data. In a later lab MSW will be removed and these
- * same calls will hit a real Spring Boot BFF without changing the
- * function signatures.
+ * All HTTP communication with the backend goes through this file. Requests use
+ * same-origin URLs that the Vite proxy forwards to the BFF on port 8080. Every
+ * request sends "Accept: application/json", which is what makes the BFF return
+ * a 401 (rather than a login redirect) when there is no session. The response
+ * shapes match the types in types.ts directly, so there is no translation layer.
  */
 
-import type { Account, TransferRequest, TransferResponse } from './types';
+import type { Account, TransferRequest, TransferResponse, User } from './types';
+
+export async function getCurrentUser(): Promise<User | null> {
+  const response = await fetch('/api/me', {
+    headers: { Accept: 'application/json' },
+  });
+  if (response.status === 401) {
+    return null; // not logged in
+  }
+  if (!response.ok) {
+    throw new Error(`Failed to load user: ${response.status}`);
+  }
+  return response.json();
+}
 
 export async function getAccounts(): Promise<Account[]> {
-  const response = await fetch('/api/accounts');
+  const response = await fetch('/api/accounts', {
+    headers: { Accept: 'application/json' },
+  });
   if (!response.ok) {
     throw new Error(`Failed to load accounts: ${response.status}`);
   }
@@ -23,7 +38,10 @@ export async function postTransfer(
 ): Promise<TransferResponse> {
   const response = await fetch('/api/transfers', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+    },
     body: JSON.stringify(request),
   });
   if (!response.ok) {
@@ -31,6 +49,16 @@ export async function postTransfer(
     throw new Error(message || `Transfer failed: ${response.status}`);
   }
   return response.json();
+}
+
+export async function logout(): Promise<void> {
+  const response = await fetch('/logout', {
+    method: 'POST',
+    headers: { Accept: 'application/json' },
+  });
+  if (!response.ok && response.status !== 302) {
+    throw new Error(`Logout failed: ${response.status}`);
+  }
 }
 
 async function safeReadErrorMessage(response: Response): Promise<string | null> {

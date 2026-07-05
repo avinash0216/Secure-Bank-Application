@@ -1,38 +1,19 @@
 /**
  * TypeScript types for the banking API.
  *
- * These types describe the shape of the data exchanged with the backend.
- * They are imported by the API client and by components that work with
- * accounts, customers, and transactions.
+ * These types mirror the JSON the BFF returns. The BFF passes the resource
+ * server's shapes straight through, so Account here matches bankapi's
+ * AccountDto (id, customerId, accountType, balance) and User matches the
+ * BFF's UserInfoDto returned by /api/me.
  */
 
-export type AccountStatus = 'ACTIVE' | 'INACTIVE';
 export type AccountType = 'SAVINGS' | 'CHECKING';
 
 export type Account = {
   accountNumber: string;
-  status: AccountStatus;
-  balance: number;
-  type: AccountType;
-};
-
-export type Customer = {
   customerId: string;
-  name: string;
-  email: string;
-};
-
-export type TransactionStatus = 'COMPLETE' | 'FAILED';
-export type TransactionType = 'TRANSFER' | 'DEPOSIT' | 'WITHDRAWAL';
-
-export type Transaction = {
-  transactionId: string;
-  date: string;
-  type: TransactionType;
-  amount: number;
-  account1: string;
-  account2: string | null;
-  status: TransactionStatus;
+  accountType: AccountType;
+  balance: number;
 };
 
 export type TransferRequest = {
@@ -43,5 +24,13 @@ export type TransferRequest = {
 
 export type TransferResponse = {
   transactionId: string;
-  status: TransactionStatus;
+  status: 'COMPLETE' | 'FAILED';
+};
+
+// Matches the UserInfoDto returned by the BFF's /api/me endpoint.
+export type User = {
+  subject: string;
+  preferredUsername: string;
+  fullName: string;
+  roles: string[];
 };
