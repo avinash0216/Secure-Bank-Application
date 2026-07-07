@@ -1,0 +1,94 @@
+Create a single PowerPoint slide in a 16:9 widescreen layout titled “TeamCodeMechanics Authorization Architecture”. Use a clean enterprise style: white background, dark navy headings, light gray section headers, blue arrows, and rounded rectangles for systems. The slide should be easy to read from a distance.
+ Layout
+Arrange the slide left to right with four grouped sections:
+1.
+Frontend
+2.
+Auth Layer
+3.
+Business API
+4.
+Downstream Services
+ Place these boxes on the slide
+Frontend group
+•
+banking-ui (React/Vite SPA)
+   Port: 5173
+   Position: far left
+Auth Layer group
+•
+bankbff (BFF / OAuth2 client)
+   Port: 8080
+•
+authserver (Spring Authorization Server)
+   Port: 9000
+   Place authserver above or slightly right of bankbff to show the login redirect flow
+Business API group
+•
+bankapi (Resource Server / business API)
+   Port: 8081
+Downstream Services group
+•
+paymentmock (WireMock payment stub)
+   Port: 8090
+•
+Oracle DB
+•
+Kafka topic: transaction-stats
+ Draw arrows with these labels
+•
+banking-ui → bankbff
+   Label: Browser requests /api/ and /oauth2/authorization/bank-auth
+•
+bankbff → authserver
+   Label: authorization_code login
+•
+authserver → bankbff
+   Label: authorization code + tokens
+•
+bankbff → bankapi
+   Label: Bearer access token
+•
+bankapi → authserver
+   Label: JWT validation via issuer + JWKS
+•
+bankapi → Oracle DB
+   Label: Read/write banking data
+•
+bankapi → paymentmock
+   Label: POST /payments
+•
+bankapi → Kafka topic: transaction-stats
+   Label: Publish transaction events
+ Add a small callout box near the BFF
+Title: Session note
+•
+BFF_SESSION is a browser session cookie
+•
+Tokens stay server-side in the BFF
+•
+bankapi receives the access token, not the browser cookie
+ Visual styling
+•
+Use consistent box sizes
+•
+Use icons if available: browser, shield, server, database, queue
+•
+Keep arrows horizontal where possible
+•
+Make the authserver arrow visually stand out because it represents the login redirect
+•
+Keep text short and presentation-friendly
+ Final composition
+The slide should clearly show:
+•
+browser traffic starts at banking-ui
+•
+login happens through bankbff → authserver
+•
+tokens are stored in the BFF
+•
+API calls go to bankapi
+•
+bankapi talks to Oracle, paymentmock, and Kafka
+If you want, I can also make this into a more polished prompt for a specific AI tool like Copilot, ChatGPT, or PowerPoint Copilot.
