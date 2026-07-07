@@ -5,7 +5,9 @@
     <file url="file://$PROJECT_DIR$/../BigBankApp/auth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../BigBankApp/bff/bankbff/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bank-api/bankapi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bank-bff/src/main/java" charset="UTF-8" />
   </component>
 </project>

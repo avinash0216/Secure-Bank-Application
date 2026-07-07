@@ -36,7 +36,7 @@ Accept: application/json
 ### do not survive a restart.
 ###############################################################################
 
-@sessionCookie = BFF_SESSION=41C015F75BCED36C5EE225C9C8FDC2FC
+@sessionCookie = BFF_SESSION=14D8E99C724D588AA76D6B251443D4CD
 
 
 ###############################################################################
